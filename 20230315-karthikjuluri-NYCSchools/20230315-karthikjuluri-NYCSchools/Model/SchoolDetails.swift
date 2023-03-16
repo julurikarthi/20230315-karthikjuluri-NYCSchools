@@ -41,5 +41,16 @@ struct SchoolDetails: Decodable {
         self.writingScore = writingScore
         self.dbn = dbn
     }
+
+    init(name: String, numberOfTestTakers: String,
+         readingScore: String, mathScore: String,
+         writingScore: String, dbn: String) {
+        self.name = name
+        self.numberOfTestTakers = numberOfTestTakers
+        self.readingScore = readingScore
+        self.mathScore = mathScore
+        self.writingScore = writingScore
+        self.dbn = dbn
+    }
 }
 
