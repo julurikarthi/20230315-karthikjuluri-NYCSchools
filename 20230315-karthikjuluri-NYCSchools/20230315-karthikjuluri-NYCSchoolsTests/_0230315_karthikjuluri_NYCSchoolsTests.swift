@@ -18,12 +18,24 @@ final class _0230315_karthikjuluri_NYCSchoolsTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
+    func testgetSchoolDetails() throws {
+        let expectation = self.expectation(description: "loading Mock data")
+        var details: SchoolDetails?
+        let model = SchoolDetailsViewModelMock()
+        model.getSchoolDetails(dbn: "ew") { schooldetails in
+            details = schooldetails
+            if details != nil {
+                expectation.fulfill()
+            } else {
+                XCTAssert(false)
+            }
+        }
+
+        waitForExpectations(timeout: 2) { error in
+            if details != nil {
+                XCTAssert(true)
+            }
+        }
     }
 
     func testPerformanceExample() throws {
