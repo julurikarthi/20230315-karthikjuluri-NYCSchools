@@ -7,12 +7,12 @@
 
 import Foundation
 
-struct School: Decodable {
+struct School: Decodable, Hashable {
 
-    let name: String
-    let city: String
-    let totalStudents: String
-    let dbn: String
+    var name: String
+    var city: String
+    var totalStudents: String
+    var dbn: String
 
 
     enum CodingKeys: String, CodingKey {

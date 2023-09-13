@@ -7,54 +7,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "C61C2773-BB3F-4B4F-9620-596F67147F0D"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "20230315-karthikjuluri-NYCSchools/ViewController/ViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "65"
-            endingLineNumber = "65"
-            landmarkName = "tableView(_:didSelectRowAt:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "C61C2773-BB3F-4B4F-9620-596F67147F0D - 29c3fd1d5cdbee21"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "_0230315_karthikjuluri_NYCSchools.ViewController.tableView(_: __C.UITableView, didSelectRowAt: Foundation.IndexPath) -&gt; ()"
-                  moduleName = "20230315-karthikjuluri-NYCSchools"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/vn53oo3/Downloads/20230315-karthikjuluri-NYCSchools/20230315-karthikjuluri-NYCSchools/ViewController/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "65"
-                  endingLineNumber = "65"
-                  offsetFromSymbolStart = "200">
-               </Location>
-               <Location
-                  uuid = "C61C2773-BB3F-4B4F-9620-596F67147F0D - 29c3fd1d5cdbee21"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "_0230315_karthikjuluri_NYCSchools.ViewController.tableView(_: __C.UITableView, didSelectRowAt: Foundation.IndexPath) -&gt; ()"
-                  moduleName = "20230315-karthikjuluri-NYCSchools"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/vn53oo3/Downloads/20230315-karthikjuluri-NYCSchools/20230315-karthikjuluri-NYCSchools/ViewController/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "65"
-                  endingLineNumber = "65"
-                  offsetFromSymbolStart = "676">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "C5084929-1C32-402E-B6F7-514E583FA0FB"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -148,14 +100,14 @@
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "090D6D90-C227-4AAE-A9C5-87B3F65B11BE - 413b432903ac19f4"
+                  uuid = "090D6D90-C227-4AAE-A9C5-87B3F65B11BE - db4313af8f62d666"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "_0230315_karthikjuluri_NYCSchools.NetWorkManager.fetchSchools(completion: (Swift.Array&lt;_0230315_karthikjuluri_NYCSchools.School&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
                   moduleName = "20230315-karthikjuluri-NYCSchools"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/vn53oo3/Downloads/20230315-karthikjuluri-NYCSchools/20230315-karthikjuluri-NYCSchools/NetWorkManager/NetWorkManager.swift"
+                  urlString = "file:///Users/vn53oo3/Desktop/NYC%20project/20230315-karthikjuluri-NYCSchools/20230315-karthikjuluri-NYCSchools/20230315-karthikjuluri-NYCSchools/NetWorkManager/NetWorkManager.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "38"
@@ -163,14 +115,14 @@
                   offsetFromSymbolStart = "68">
                </Location>
                <Location
-                  uuid = "090D6D90-C227-4AAE-A9C5-87B3F65B11BE - 5bd1d6d2ebf7280"
+                  uuid = "090D6D90-C227-4AAE-A9C5-87B3F65B11BE - 9fc54deba271bc12"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in _0230315_karthikjuluri_NYCSchools.NetWorkManager.fetchSchools(completion: (Swift.Array&lt;_0230315_karthikjuluri_NYCSchools.School&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
                   moduleName = "20230315-karthikjuluri-NYCSchools"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/vn53oo3/Downloads/20230315-karthikjuluri-NYCSchools/20230315-karthikjuluri-NYCSchools/NetWorkManager/NetWorkManager.swift"
+                  urlString = "file:///Users/vn53oo3/Desktop/NYC%20project/20230315-karthikjuluri-NYCSchools/20230315-karthikjuluri-NYCSchools/20230315-karthikjuluri-NYCSchools/NetWorkManager/NetWorkManager.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "39"
@@ -242,6 +194,22 @@
             endingLineNumber = "34"
             landmarkName = "testgetSchoolDetails()"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B6B64CB1-88B5-44F0-B99A-9F6BA7D8BE66"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "20230315-karthikjuluri-NYCSchools/ViewController/SwiftUIViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "body"
+            landmarkType = "24">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
